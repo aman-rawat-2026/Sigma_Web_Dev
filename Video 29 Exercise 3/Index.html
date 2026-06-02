@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .card {
+            background-color: white;
+            border: 0.2px solid black;
+            border-radius: 17px;
+            height: fit-content;
+            width: fit-content;
+
+            box: 12px;
+            padding-inline: 10px;
+            padding-block: 8px;
+        }
+
+        img {
+            border-radius: 12px;
+        }
+
+        #chipsContainer {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            align-items: start;
+
+        }
+
+        .chips {
+            border-color: gray;
+            border-radius: 24px;
+            padding-inline: 10px;
+            padding-block: 5px;
+            border: 0.5px solid gray;
+
+
+        }
+
+        .para {
+            width: 30vw;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            padding: 0;
+            margin-top: 2px;
+            ;
+            margin-bottom: 2px;
+            ;
+
+
+        }
+
+        #button {}
+
+        button {
+            color: #75AFF1;
+            background-color: #E0EEFF;
+            border: none;
+            border-radius: 24px;
+            padding-inline: 10px;
+            padding-block: 5px;
+            
+        }
+        .bottomNavigation{
+            display:flex;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <div id="image">
+            <img src="image.jpg" alt="" srcset="">
+        </div>
+        <div id="chipsContainer">
+            <div class="chips">Nature</div>
+            <div class="chips">Lake</div>
+        </div>
+
+        <h1>Lorem</h1>
+        <div class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae vel vero harum eos, quo
+            nemo fugit optio dolorem magni eum atque obcaecati doloremque.</div>
+        <div class="bottomNavigation">
+            <button>Read More</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

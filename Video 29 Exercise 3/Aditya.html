@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Challenge</title>
+    <style>
+        body {
+            background-color: light rgb(189, 47, 47);
+        }
+
+
+
+        .box1 {
+            border: 1px solid black;
+            border-radius: 12px;
+            height: "fit";
+            width: 40%;
+            padding: 1px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            align-items: start;
+            padding: 8px;
+        }
+
+        .box2 {
+            border: 1px solid black;
+            border-radius: 12px;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            /* important */
+        }
+
+        .box2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .chips {
+            border-radius: 24px;
+            border: 1px solid gray;
+            width: "fit";
+            padding-inline: 10px;
+            padding-block: 3px;
+        }
+
+        .chipDiv {
+            width: fit-content;
+            display: flex;
+            gap: 3px;
+        }
+
+        .title {
+            font-size: x-large;
+            /* font-style: ; */
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .bottomNavigation {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bottomNavigation button {
+            color: #75AFF1;
+            background-color: #E0EEFF;
+            border: none;
+            border-radius: 24px;
+            padding-inline: 10px;
+            padding-block: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="box2">
+            <img src="./image.jpg" alt="">
+        </div>
+        <div class="chipDiv">
+            <div class="chips">Nature</div>
+            <div class="chips">Lake</div>
+        </div>
+
+        <!-- title -->
+        <div class="title">Lago di Braises</div>
+        <!-- discription -->
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde doloribus, ullam adipisci expedita harum
+            quisquam temporibus deleniti est, nesciunt totam eum itaque impedit esse hic nam perferendis vitae
+            reiciendis nulla!</div>
+        <!-- readmore button` -->
+        <div class="bottomNavigation"><button>Read More</button></div>
+    </div>
+</body>
+
+</html>

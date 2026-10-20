@@ -8,16 +8,28 @@
         body{
             background-color: red;
         }
-        @media only screen and (max-width: 455px){ body{ background-color: blue;} .boxes{ flex-direction: column;}}
+
+        @media screen and (orientation: landscape) {
+            body{
+                border: 2px solid purple;
+            }
+
+        }
+
+        
+        @media only screen and (max-width: 455px){ body{ background-color: rgb(30, 15, 168);} .boxes{ flex-direction: column;}}
         .boxes{
             display: flex;
-            justify-content: center;
+            justify-content: center;   
             align-items: center;
             height: 100vh;
 
         }
+        
+        
         .box{
             width: 344px;
+            border-radius: 24px;
             height: 344px;
             padding: 3px;
             margin: 3px;

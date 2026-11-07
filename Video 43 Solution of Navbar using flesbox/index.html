@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Using Flexbox</title>
+    <style>
+      .logo img {
+        height: 43px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .right ul {
+        display: flex;
+        gap: 34px;
+      }
+      .right li {
+        list-style: none;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_primary_logo.png"
+            alt=""
+          />
+        </div>
+        <div class="right">
+          <ul>
+            <li>Products</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+            <li>About Us</li>
+            <li><img src="" alt="" /></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
